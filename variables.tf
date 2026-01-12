@@ -47,3 +47,9 @@ variable "repo_folder" {
   type    = string
   default = "Prom-Grafana-setup"
 }
+variable "ui_cidr_blocks" {
+  type        = list(string)
+  description = "CIDR blocks allowed to access Prometheus/Alertmanager/Grafana UIs"
+  default     = []
+}
+
