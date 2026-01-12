@@ -15,22 +15,22 @@ variable "project_name" {
 
 variable "prometheus_instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "app_instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "sd_instance_type" {
   type    = string
-  default = "t2.nano"
+  default = "t3.micro"
 }
 
 variable "grafana_instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "allowed_ssh_cidr" {
